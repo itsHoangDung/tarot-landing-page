@@ -682,6 +682,7 @@ a {
     .mainimg {
         position: relative;
         align-self: center;
+        left: 0%;
     }
     .brandtitle {
         font-size: 28px;
@@ -709,7 +710,8 @@ a {
     .features {
         display: flex;
         justify-content: space-between;
-        padding: 0 90px 0 90px;
+        padding: 0;
+        align-items: center;
     }
     * {
         font-family: 'Montserrat', sans-serif;
