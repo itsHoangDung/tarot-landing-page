@@ -7,6 +7,9 @@
 body {
     margin: 0;
 }
+body {
+  overscroll-behavior-y: none;
+}
 :root {
     overflow-x: hidden;
 }
