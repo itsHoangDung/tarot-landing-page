@@ -109,6 +109,8 @@ a {
     background-color: #FFEDD1;
     border-radius: 75px;
     z-index: -2;
+    overflow: hidden;
+    margin-bottom: 80px;
 }
 
 .mainbackground .download {
@@ -205,7 +207,7 @@ a {
     background-color: #E7D3FF;
     padding-top: 40px;
     padding: 0;
-    margin: 80px 0 100px 0;
+    margin: 0px 0 100px 0;
 }
 
 .featureicon {
@@ -438,7 +440,7 @@ a {
         height: 800px;
         background-color: #E7D3FF;
         padding-top: 40px;
-        margin: 80px 0 100px 0;
+        margin: 0px 0 100px 0;
     }
     .features {
         display: flex;
@@ -605,7 +607,7 @@ a {
         height: 1100px;
         background-color: #E7D3FF;
         padding-top: 40px;
-        margin: 80px 0 100px 0;
+        margin: 0px 0 100px 0;
     }
     .features {
         display: flex;
@@ -679,7 +681,7 @@ a {
     }
     .cards-img{
         display: block;
-        top: 3160px;
+        top: 3080px;
         left: -230px;
         transform: scale(20%);
     }
@@ -747,8 +749,9 @@ a {
         height: 655px;
         width: 100%;
         background-color: #FFEDD1;
-        border-radius: 25px;
+        border-radius: 25px 25px 0 0;
         z-index: -2;
+        margin-bottom: 0px;
     }
     .subtext {
         width: 80%;
