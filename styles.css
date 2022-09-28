@@ -554,7 +554,7 @@ a {
         flex-direction: column;
         justify-content: center;
         height: 100%;
-        padding-left: 15%;
+        padding-left: 100px;
     }
     .responsive {
         display: none;
